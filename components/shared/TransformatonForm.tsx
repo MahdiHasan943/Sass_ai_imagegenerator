@@ -98,7 +98,7 @@ const TransformatonForm = ({
     data && action === "Update"
       ? {
           title: data?.titlet,
-          aspectRatio: datta?.aspectRatio,
+          aspectRatio: data?.aspectRatio,
           color: data?.color,
           prompt: data?.prompt,
           publicId: data?.publicId,
